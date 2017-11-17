@@ -1,0 +1,582 @@
+Quick-Cocos2dx-Community C++ support ready.
+
+------------------------------------------------
+
+LOAD LUA FILE: D:/7Hao/Quick-Cocos2dx-Community-3.6.5_Release/Projects/find/find/src/main.lua
+
+------------------------------------------------
+
+[LUA-print] ===========================================================
+
+[LUA-print]               LOAD QUICK FRAMEWORK
+
+[LUA-print] ===========================================================
+
+[LUA-print] [INFO] 
+
+[LUA-print] [INFO] # DEBUG                        = 1
+
+[LUA-print] [INFO] #
+
+[LUA-print] [INFO] # device.platform              = windows
+
+[LUA-print] [INFO] # device.model                 = unknown
+
+[LUA-print] [INFO] # device.language              = cn
+
+[LUA-print] [INFO] # device.writablePath          = D:\7Hao\Quick-Cocos2dx-Community-3.6.5_Release\Projects\find\find\
+
+[LUA-print] [INFO] # device.directorySeparator    = \
+
+[LUA-print] [INFO] # device.pathSeparator         = ;
+
+[LUA-print] [INFO] #
+
+[LUA-print] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_HEIGHT
+
+[LUA-print] [INFO] # CONFIG_SCREEN_WIDTH          = 960.00
+
+[LUA-print] [INFO] # CONFIG_SCREEN_HEIGHT         = 640.00
+
+[LUA-print] [INFO] # display.widthInPixels        = 960.00
+
+[LUA-print] [INFO] # display.heightInPixels       = 640.00
+
+[LUA-print] [INFO] # display.contentScaleFactor   = 1.00
+
+[LUA-print] [INFO] # display.width                = 960.00
+
+[LUA-print] [INFO] # display.height               = 640.00
+
+[LUA-print] [INFO] # display.cx                   = 480.00
+
+[LUA-print] [INFO] # display.cy                   = 320.00
+
+[LUA-print] [INFO] # display.left                 = 0.00
+
+[LUA-print] [INFO] # display.right                = 960.00
+
+[LUA-print] [INFO] # display.top                  = 640.00
+
+[LUA-print] [INFO] # display.bottom               = 0.00
+
+[LUA-print] [INFO] # display.c_left               = -480.00
+
+[LUA-print] [INFO] # display.c_right              = 480.00
+
+[LUA-print] [INFO] # display.c_top                = 320.00
+
+[LUA-print] [INFO] # display.c_bottom             = -320.00
+
+[LUA-print] [INFO] #
+
+[LUA-print] socket time:1510719047.3112
+
+[LUA-print] [INFO] text:121
+
+[LUA-print] SocketTCP connect success
+
+[LUA-print] SocketTCP receive data:{"cmd":"world_size","param":{"width":960,"height":640}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"world_size","param":{"width":960,"height":640}}	world_size
+
+[LUA-print] [INFO] text:(O_O)
+
+[LUA-print] XWH--->>>setdata	{"param":{"name":"(O_O)"},"cmd":"cs_create_player"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_create_player_return","param":{"pos":{"x":480,"y":320},"name":"(O_O)","playerId":2}}###{"cmd":"sc_world_vis_player","param":{"pos":{"x":480,"y":320},"name":"i","playerId":1}}###
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_create_player_return","param":{"pos":{"x":480,"y":320},"name":"(O_O)","playerId":2}}	sc_create_player_return
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_world_vis_player","param":{"pos":{"x":480,"y":320},"name":"i","playerId":1}}	sc_world_vis_player[LU[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":490,"y":32[LUA-print] SocketTCP[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":490,"y":320},"p[LUA-print] XWH--->>>data.cmd	{[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":500,"y":320},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":500,"y":320},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":510,"y":320},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":510,"y":320},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":520,"y":320},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":520,"y":320},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":530,"y":320},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":530,"y":320},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":540,"y":320},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":540,"y":320},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":550,"y":320},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":550,"y":320},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":320},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":320},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":570,"y":320},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":570,"y":320},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":580,"y":320},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":580,"y":320},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":590,"y":320},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":590,"y":320},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":600,"y":320},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":600,"y":320},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":610,"y":320},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":610,"y":320},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":620,"y":320},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":620,"y":320},"playerId":1}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":-10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":480,"y":310},"playerId":2}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":480,"y":310},"playerId":2}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":-10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":480,"y":300},"playerId":2}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":480,"y":300},"playerId":2}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":-10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":480,"y":290},"playerId":2}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":480,"y":290},"playerId":2}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":-10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":480,"y":280},"playerId":2}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":480,"y":280},"playerId":2}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":-10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":480,"y":270},"playerId":2}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":480,"y":270},"playerId":2}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":-10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":480,"y":260},"playerId":2}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":480,"y":260},"playerId":2}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":-10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":0,"x":10}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":480,"y":250},"playerId":2}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":480,"y":250},"playerId":2}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":-10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":490,"y":250},"playerId":2}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":490,"y":250},"playerId":2}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":490,"y":240},"playerId":2}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":490,"y":240},"playerId":2}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":0,"x":10}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":500,"y":240},"playerId":2}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":500,"y":240},"playerId":2}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":0,"x":10}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":510,"y":240},"playerId":2}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":510,"y":240},"playerId":2}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":0,"x":10}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":520,"y":240},"playerId":2}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":520,"y":240},"playerId":2}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":0,"x":10}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":53[LUA-print] SocketTCP receive[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":530,"y"[LUA-print] XWH--->>>data.cmd	{"cmd":"s[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":0,"x":10}},"cmd":"cs_player[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":540,"y":240},"playerId":2}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":540,"y":240},"playerId":2}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":550,"y":240},"playerId":[LUA-pr[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":550,"y":240},"playerId":2}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":240},"playerId":2}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":240},"playerId":2}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":0,"x":-10}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":610,"y":320},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":610,"y":320},"playerId":1}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":0,"x":-10}},"cmd":"cs_player_move"}
+
+[LUA-prin[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":600,"y":320},"playerId[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":600,"y":320},"playerId":1}}	sc_player_move
+
+[LUA-prin[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":600,"y":330},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":600,"y":3[LUA-print] XWH--->>>data.cmd	{"cmd":[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":600,"y":340},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":600,"y":340},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":600,"y":350},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":600,"y":350},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":600,"y":360},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":600,"y":360},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":590,"y":360},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":590,"y":360},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":580,"y":360},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":580,"y":360},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":570,"y":360},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":570,"y":360},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":360},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":360},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":550,"y":360},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":550,"y":360},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":540,"y":360},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":540,"y":360},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":530,"y":360},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":530,"y":360},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":520,"y":360},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":520,"y":360},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":530,"y":360},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":530,"y":360},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":540,"y":360},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":540,"y":360},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":550,"y":360},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":550,"y":360},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":360},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":360},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":350},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":350},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":340},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":340},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":330},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":330},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":320},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":320},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":310},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":310},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":300},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":300},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":290},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":290},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":280},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":280},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":270},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":270},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":260},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":260},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":250},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":250},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":240},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":240},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":230},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":230},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":220},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":560,"y":220},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":570,"y":220},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":570,"y":220},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":580,"y":220},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":580,"y":220},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":590,"y":220},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":590,"y":220},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":600,"y":220},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":600,"y":220},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":610,"y":220},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":610,"y":220},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":610,"y":210},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":610,"y":210},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":620,"y":210},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":620,"y":210},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":620,"y":200},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":620,"y":200},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":620,"y":190},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":620,"y":190},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":620,"y":180},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":620,"y":180},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":630,"y":180},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":630,"y":180},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":640,"y":180},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":640,"y":180},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":650,"y":180},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":650,"y":180},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":180},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":180},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":190},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":190},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":200},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":200},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":210},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":210},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":220},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":220},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":230},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":230},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":240},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":240},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":250},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":250},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":260},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":260},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":270},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":270},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":280},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":280},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":290},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":290},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":300},"playerId":1}}{"cmd":"sc_player_move","param":{"pos":{"x":650,"y":300},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":300},"playerId":1}}{"cmd":"sc_player_move","param":{"pos":{"x":650,"y":300},"playerId":1}}	nil
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":640,"y":300},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":640,"y":300},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":630,"y":300},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":630,"y":300},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":620,"y":300},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":620,"y":300},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP close
+
+[LUA-print] SocketTCP closed
+
+data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":650,"y":180},"playerId":1}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":0,"x":10}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":180},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":180},"playerId":1}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":190},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":190},"playerId":1}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":200},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":200},"playerId":1}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":210},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":210},"playerId":1}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":220},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":220},"playerId":1}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":230},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":230},"playerId":1}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":240},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":240},"playerId":1}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":250},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":250},"playerId":1}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":260},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":260},"playerId":1}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":270},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":270},"playerId":1}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":280},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":280},"playerId":1}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":290},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":290},"playerId":1}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":10,"x":0}},"cmd":"cs_player_move"}
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":0,"x":-10}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":300},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":660,"y":300},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":650,"y":300},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":650,"y":300},"playerId":1}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":0,"x":-10}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":640,"y":300},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":640,"y":300},"playerId":1}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":0,"x":-10}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":630,"y":300},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":630,"y":300},"playerId":1}}	sc_player_move
+
+[LUA-print] XWH--->>>setdata	{"param":{"movePos":{"y":0,"x":-10}},"cmd":"cs_player_move"}
+
+[LUA-print] SocketTCP receive data:{"cmd":"sc_player_move","param":{"pos":{"x":620,"y":300},"playerId":1}}
+
+[LUA-print] XWH--->>>data.cmd	{"cmd":"sc_player_move","param":{"pos":{"x":620,"y":300},"playerId":1}}	sc_player_move
+
+[LUA-print] SocketTCP close
+
+[LUA-print] SocketTCP closed
+
