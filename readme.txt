@@ -1,3 +1,2 @@
-Git is a version control system.
-Git is free software.
-thank you.
+client: quick-cocos2d-x-community-v3.6.5
+server: nodejs udp tcp
